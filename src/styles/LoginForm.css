@@ -1,0 +1,45 @@
+
+.login-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px; 
+    text-align: center;
+    margin: 20px auto; 
+}
+
+.login-form {
+    text-align: left;
+}
+
+.login-form .form-control {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    display: block; 
+}
+
+.login-form .btn-primary,
+.login-form .btn-danger {
+    background-color: #0056b3;
+    border: none;
+    width: 100px; 
+    padding: 10px;
+    margin: 10px 5px; 
+
+.login-form .btn-danger {
+    background-color: #dc3545;
+}
+
+.login-form .btn-primary:hover, 
+.login-form .btn-danger:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.alert {
+    margin-top: 10px;
+}
+}
