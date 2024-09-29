@@ -1,0 +1,20 @@
+{
+    "headerTitle": "¡Adopta un Robot con Robot Lovers!",
+    "footerText": "Contáctenos: +57 3102105253 - info@robot-lovers.com - @robot-lovers",
+    "loginTitle": "Inicio de sesión",
+    "usernameLabel": "Nombre de usuario",
+    "passwordLabel": "Contraseña",
+    "authError": "Error de autenticación. Revise sus credenciales",
+    "loginButton": "Ingresar",
+    "cancelButton": "Cancelar",
+    "robot_details": "Detalle del Robot",
+    "name": "Nombre",
+    "model": "Modelo",
+    "manufacturer": "Empresa Fabricante",
+    "year_of_manufacture": "Año de fabricación",
+    "processing_capacity": "Capacidad de procesamiento",
+    "additional_features": "Características adicionales",
+    "close": "Cerrar",
+    "id": "ID"
+  }
+  
