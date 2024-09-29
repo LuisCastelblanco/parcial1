@@ -1,0 +1,59 @@
+
+.robot-detail-card {
+    border: 1px solid #ccc; 
+    padding: 16px;
+    width: 250px; 
+    margin: 20px auto; 
+    text-align: center; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+    position: relative;
+  }
+  
+  .robot-image {
+    width: 120px; 
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+  }
+  
+  .robot-name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .robot-details {
+    text-align: left; 
+    font-size: 0.9rem;
+  }
+  
+  .robot-details p {
+    margin: 5px 0;
+  }
+  
+  .robot-details p strong {
+    font-weight: bold;
+  }
+  
+  .robot-details p::before {
+    content: "→ "; 
+    font-weight: bold;
+  }
+  
+  .btn-close {
+    background: none;
+    border: none;
+    color: #f00;
+    font-size: 0.9rem;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .btn-close:hover {
+    color: #b00; 
+  }
+  

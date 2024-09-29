@@ -28,6 +28,7 @@
     width: 100px; 
     padding: 10px;
     margin: 10px 5px; 
+}
 
 .login-form .btn-danger {
     background-color: #dc3545;
@@ -41,5 +42,4 @@
 
 .alert {
     margin-top: 10px;
-}
 }

@@ -1,6 +1,7 @@
+// RobotDetail.js
 import React, { useEffect, useState } from 'react';
-import '../styles/RobotDetail.css';
 import { useTranslation } from 'react-i18next';
+import '../styles/RobotDetail.css';
 
 const RobotDetail = ({ robot, onClose }) => {
   const [robotDetail, setRobotDetail] = useState(null);
@@ -29,15 +30,15 @@ const RobotDetail = ({ robot, onClose }) => {
   if (!robotDetail) return <p>{t('loading')}</p>;
 
   return (
-    <div className="robot-detail-container">
-      <button className="btn-close" onClick={onClose}>{t('close')}</button>
-      <h2>{t('robot_details')}</h2>
+    <div className="robot-detail-card">
+      <h4 className="robot-name">{robotDetail.nombre}</h4>
       <img src={robotDetail.imagen} alt={robotDetail.nombre} className="robot-image" />
-      <p><strong>{t('name')}:</strong> {robotDetail.nombre}</p>
-      <p><strong>{t('model')}:</strong> {robotDetail.modelo}</p>
-      <p><strong>{t('year_of_manufacture')}:</strong> {robotDetail.añoFabricacion}</p>
-      <p><strong>{t('processing_capacity')}:</strong> {robotDetail.capacidadProcesamiento}</p>
-      <p><strong>{t('additional_features')}:</strong> {robotDetail.humor}</p>
+      <div className="robot-details">
+        <p><strong>→ {t('year_of_manufacture')}:</strong> {robotDetail.añoFabricacion}</p>
+        <p><strong>→ {t('processing_capacity')}:</strong> {robotDetail.capacidadProcesamiento}</p>
+        <p><strong>→ {t('additional_features')}:</strong> {robotDetail.humor}</p>
+      </div>
+      <button className="btn-close" onClick={onClose}>{t('close')}</button>
     </div>
   );
 };
