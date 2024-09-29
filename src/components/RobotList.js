@@ -35,9 +35,11 @@ const RobotList = () => {
     setSelectedRobot(null); 
   };
 
-  return (
-    <div className="robot-list-container">
-      <h2>{t()}</h2>
+
+return (
+  <div className="robot-list-container">
+    <div>
+    
       <Table striped bordered hover className="robot-table text-left">
         <thead>
           <tr>
@@ -58,10 +60,12 @@ const RobotList = () => {
           ))}
         </tbody>
       </Table>
-      
-      {selectedRobot && <RobotDetail robot={selectedRobot} onClose={closeDetail} />}
     </div>
-  );
+    
+    {selectedRobot && <RobotDetail robot={selectedRobot} onClose={closeDetail} />}
+  </div>
+);
+
 };
 
 export default RobotList;
